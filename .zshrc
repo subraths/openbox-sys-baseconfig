@@ -14,5 +14,7 @@ compinit
 export PATH="${PATH}:$HOME/.config/openbox/scripts"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/sbin:$PATH"
+export PATH=$PATH:/opt/gradle/gradle-7.5.1/bin
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 PROMPT="%~ "
